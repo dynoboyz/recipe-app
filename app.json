@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Recipe App",
+    "description": "Recipe Application",
+    "slug": "recipe",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIUserInterfaceStyle": "Light"
+      }
+    },
+    "android": {
+      "package": "com.dynoboyz.recipe"
+    }
+  }
+}
